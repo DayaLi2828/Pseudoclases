@@ -1,0 +1,68 @@
+:root{
+    --aqua:aqua;
+}
+body{
+    background-color:#f1c4f3 ;
+}
+.button:hover{
+    background-color: blueviolet;
+}
+#mensaje:target{
+    background-color: aliceblue;
+    border-radius: #ff0000;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+    border: 1px solid #00aaff;
+}
+.oculto {
+    display: none;
+}
+
+.contenedor p:first-child{
+    background-color: var(--aqua);
+}
+input:invalid{
+    background-color: pink;
+}
+/* input:valid {
+    border: 2px solid green;
+} */
+input[type="email"]{
+    border-radius: 2px solid green;
+    background-color:khaki;
+}
+.red-input:focus{
+    border: 3px solid red;
+    color: white;
+}
+.form_activo input{
+    display: block;
+}
+main :only-of-type{
+    color:var(--aqua);
+}
+.parrafo:first-of-type{
+    color:green;
+}
+nav a{
+    display: block;
+}
+nav  a:hover{
+    color: #dc7633;
+}
+h1:before{
+    content: "🌷";
+}
+p::after{
+    display: block;
+    background-color: aliceblue;
+    content: "" ;
+    width: 100%;
+    height: 2px;
+}
+.boton_sombra{
+    height: 20px;
+    width: 50px;
+    box-shadow: 4px 4px rgba(173, 175, 143, 0.808);
+}

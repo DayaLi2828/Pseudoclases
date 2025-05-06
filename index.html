@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <div class="button"> <!--Creamos una clase llamada button--> 
+        <button>Botón</button><!--Un boton-->
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <nav>
+        <ul>
+            <a href="#mensaje">Mostrar mensaje</a><!--Creamos un link con un nombre 'mostrar mensaje' que hara la accion de mostrar el mensaje oculto-->
+        </ul>
+    </nav>
+
+    <div id="mensaje" class="oculto"><!--Un id llamado 'mensaje' y una clase llamada 'oculto' dentro de un div-->
+        <p>Hola, mi nombre es Rose y soy un guía explorador de la tribu 52 guarida 12. ¿Desea que le ayude en algo, señor?</p><!--ponemos un parrafo-->
+        <a href="#">Ocultar</a><!--Creamo otro link con el nombre 'oculto' que hara la acciom de ocultar el parrafo-->
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <div class="contenedor"><!--Creamos una clase llamada 'contenedor' dentro de un div-->
+        <p>Primer hijo</p><!--Ponemos 3 parrafos el los cuales solo 1 va a tener un estilo especial-->
+        <p>Segundo hijo</p>
+        <p>Tercer hijo</p>
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <form><!-- creamos un formulario-->
+        <label for="url_input">Ingresa una URL:</label> <!--creamos una etiqueta de texto para el campo de entrada-->
+        <input type="url" id="url_input" name="url_input" required><!--Creamos un campo de entrada para que el usuario escriba una URL-->
+        <button type="submit">Enviar</button>*-*<!--creamos un boton llamado 'Enviar'-->
+    </form><br>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <form>
+        <input type="email" id="email" name="Email" placeholder="ingresa tu email"><br><br><!--creamos un campo de entrada para quqe el usuario ingrese su email-->
+        <input type="numero" id="telefono" name="telefono" placeholder="ingresa tu telefono"><br><br><!--creamos un campo de entrada para que el usuario ingrese su telefono-->
+        <input type="texto" id="direccion" name="direccion" placeholder="ingresa tu direccion"><!--Creamos un campo de entrada para que el usuario ingrese su direccion-->
+    </form><br><hr>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <div class="form_activo"> <!--creamos una clase llamada 'form_activo' dentro de un div-->
+        <input class="red-input" name="rojo"><br><!--creamos un campo de entrada con una clase llamada 'red-input' la cual cuando demos click su borde sera de color rojo-->
+        <input class="campo" name="#" ><br><!--creamos un campo de entrada, esta no va a hacer ningun cambio-->
+    </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <main>
+        <div>Soy el padre</div><!--creamos 3 elementos iguales div-->
+        <div>Soy la madre</div>
+        <div>Soy la hija</div>
+        <i>Soy el hijo</i><!--creamos 1 elemento unico en su tipo i-->
+    </main>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <section><!--creamo 2 prarrafos detro de un seccion y solo el primer parrafo aplica el estilo de letra verde-->
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Doloremque ab ipsum est aliquam ut omnis culpa et minima consequuntur deserunt?
+        </p>
+        <p  class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Magnam distinctio inventore nostrum 
+            quas adipisci praesentium eveniet repellat nemo ullam obcaecati!
+        </p>
+    </section>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <nav><!--creamos una etiqueta de navegacion-->
+        <ul>
+            <a href="#">Inicio</a><!--4 links los cuales van a cambiar de color cuando pasamos el cursor por enzima sin dar click-->
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Productos</a>
+            <a href="#">Contactos</a>
+        </ul>
+    </nav>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="icono"><!--cramos una clase llamada 'icono' dentro de un div-->
+        <h1>Developers against the world</h1><!--ponemos una etiqueta de parrafo que contiene un mensaje-->
+    </div>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="boton_sombra">
+        <button>Boton</button>
+    </div>
+    
+</body>
+</html>
